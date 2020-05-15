@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.App.Card" parent="android:Widget">
+        <item name="android:elevation">@dimen/card_elevation</item>
+        <item name="android:background">@drawable/bg_card</item>
+    </style>
+
+    <style name="TextView" parent="android:Widget">
+        <item name="android:includeFontPadding">true</item>
+    </style>
+
+    <style name="TextView.Subtitle1">
+        <item name="android:textAppearance">@style/TextAppearance.App.Subtitle1</item>
+    </style>
+
+    <style name="TextView.Subtitle2">
+        <item name="android:textAppearance">@style/TextAppearance.App.Subtitle2</item>
+    </style>
+</resources>

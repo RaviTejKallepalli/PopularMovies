@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="PopularMovies.app" target="1.8" />
+      <module name="PopularMovies.lib" target="1.7" />
+      <module name="PopularMovies.material-design" target="1.8" />
+      <module name="PopularMovies.repository" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

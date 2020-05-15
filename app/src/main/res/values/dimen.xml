@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="subtitle1TextSize">16dp</dimen>
+    <dimen name="subtitle2TextSize">14dp</dimen>
+
+
+    <dimen name="card_elevation">4dp</dimen>
+</resources>

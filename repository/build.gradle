@@ -1,0 +1,44 @@
+plugins {
+    id 'java-library'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+dependencies {
+    def paging_version = "2.1.2"
+    def okHttp = "4.6.0"
+    def retrofit = "2.8.1"
+    def gson = "2.8.6"
+    def rxJava = "2.2.19"
+    def rxAndroid = "2.1.1"
+
+    //Paging
+    implementation "androidx.paging:paging-runtime:$paging_version"
+    implementation "androidx.paging:paging-rxjava2:$paging_version"
+
+    //RxJava2
+    api "io.reactivex.rxjava2:rxjava:$rxJava"
+    api "io.reactivex.rxjava2:rxandroid:$rxAndroid"
+
+
+    //OkHttp
+    implementation "com.squareup.okhttp3:okhttp:$okHttp"
+    implementation "com.squareup.okhttp:okhttp-urlconnection:2.7.5"
+    implementation "com.squareup.okhttp3:logging-interceptor:4.6.0"
+
+    //Retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofit"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit"
+    implementation "com.squareup.retrofit2:adapter-rxjava:$retrofit"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofit"
+
+
+    //Gson
+    implementation "com.google.code.gson:gson:$gson"
+
+    //Picasso
+    api 'com.squareup.picasso:picasso:2.71828'
+}
